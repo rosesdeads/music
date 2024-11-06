@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    box-shadow:none;
+    margin: 0;
+}
+
+body{
+    background-color: #1E1E1E;
+}
+
+/*Header----------------------------------------------------------------------------------------------*/
+
+header{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5%;
+}
+
+header img{
+    padding-left: 2%;
+    height: 7vh;
+
+}
+
+header div{
+    width: 50%;
+    height: 7vh;
+}
+
+nav{
+    width: 100%;
+    height: 7vh;
+    padding-top: 3%;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header ul li{
+    display: inline;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-right: 7%;
+    font-family: "DynaPuff", system-ui;
+}
+/*Animaciones-header--------------------------------------------------------------------------------------------------*/
+nav a:hover{
+    color: rgb(201, 0, 0);
+}
+
+/*Main--------------------------------------------------------------------------------------------------*/
+ main{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom:3%;
+ }
+
+ main h1{
+    margin: 0;
+    padding: 0;
+    padding-top:2%;
+    font-size: 10vh;
+    color: rgb(255, 255, 255);
+    font-family: "Pirata One", system-ui;
+    text-shadow: 
+        1px 1px 0 rgb(201, 0, 0),  
+       -1px 1px 0 rgb(201, 0, 0),
+        1px -1px 0 rgb(201, 0, 0),
+       -1px -1px 0 rgb(201, 0, 0);
+}
+
+main h1 span{
+    color: rgb(201, 0, 0);
+    text-shadow: 
+        1px 1px 0  rgb(255, 255, 255),  
+       -1px 1px 0  rgb(255, 255, 255),
+        1px -1px 0  rgb(255, 255, 255),
+       -1px -1px 0  rgb(255, 255, 255);
+
+}
+
+ /*main img{
+    width: 100%;
+    height: auto;
+ }*/
+
+ /*Div-Grafiti-----------------------------------------------------------------------------------------------*/
+
+ .grafiti-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+ }
+
+
+.grafiti-foto{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.texto-grafiti{
+    width: 50%;
+    height: auto;
+    padding-left:4%;
+    font-family: "DynaPuff", system-ui;
+    letter-spacing: 2px;
+    font-size: 1.20em;
+}
+
+.texto-grafiti a{
+    padding: 2%;
+    background-color: #141414;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.texto-grafiti p{
+    padding-bottom: 4%;
+}
+
+.grafiti-foto img{
+    width: 60%;
+    height: auto;
+}
+
+hr{
+    margin-top: 2%;
+}
+/*Main-Bio--------------------------------------------------------------------------------------------------*/
+
+.main-bio{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../img/ciudad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*iframe-yt--------------------------------------------------------------------------------------------------*/
+
+.iframe-yt{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.iframe-yt *{
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+    font-family: "DynaPuff", system-ui;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+
+/*Mostrar-biografia--------------------------------------------------------------------------------------------------*/
+.mostrar-biografia{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.mostrar-biografia div{
+    width: 50%;
+    height: auto;
+}
+
+.bio-img{
+    text-align: center;
+}
+
+.bio-img img{
+    width: 80%;
+}
+
+.bio-texto{
+    padding-left: 2%; 
+    font-family: "DynaPuff", system-ui;
+    color: #ffffff;
+   letter-spacing: 2px;
+}
+/*Canciones--------------------------------------------------------------------------------------------------*/
+
+.main-disco{
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/discos-main.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.album{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "DynaPuff", system-ui;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.container-album{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: "DynaPuff", system-ui;
+    color: #ffffff;
+    
+}
+
+.main-canciones{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    font-family: "DynaPuff", system-ui;
+    color: #ffffff;
+    background-color:  rgb(201, 0, 0);
+    margin-bottom: 2%;
+}
+.main-canciones img{
+    width: 70%;
+}
+
+.container-album h1{
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+.album h3{
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.subir-canciones{
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.subir-canciones a{
+    padding: 1%;
+    background-color: #141414;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+}
+/*Form-Subir--------------------------------------------------------------------------------------------------*/
+
+.main-subir-canciones{
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/mainSubirCanciones.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.form-subir{
+    width: 100%;
+    height: auto;
+    font-family: "DynaPuff", system-ui;
+    color: #ffffff;
+}
+
+.form-subir form{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1px solid black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-subir form input[type="text"]{
+    width: 100%;
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.form-subir form input[type="file"]{
+    width: 100%;
+    height: 2vh;
+    border-radius: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.form-subir form button{
+    width: 50%;
+    height: 4vh;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    border: none;
+}
+
+/*Contacto--------------------------------------------------------------------------------------------------*/
+.main-contacto{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../img/main-contacto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+ 
+}
+
+.div-contacto{
+    font-family: "DynaPuff", system-ui;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.div-contacto div{
+    width: 50%;
+}
+
+#h1-contacto{
+    text-align: center;
+    font-family: "DynaPuff", system-ui;
+    color: #ffffff;
+    margin-top: 2%;
+}
+
+.div-contacto .div-formulario{
+    text-align: center;
+    text-align: left;
+}
+
+.div-formulario input{
+    width: 70%;
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.div-formulario textarea{
+    width: 70%;
+    height: 12vh;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1%;
+}
+
+.div-formulario h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.div-contacto .img a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/*Footer--------------------------------------------------------------------------------------------------*/
+footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "DynaPuff", system-ui;
+}
+
+.iconos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconos #instagram{
+    height: 2.5vh;
+}
+
+.iconos img{
+    height: 4vh;
+}
+
+footer p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
